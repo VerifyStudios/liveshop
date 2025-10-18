@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LiveShop - LiveOS App Store</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #e0e0e0;
+      text-align: center;
+    }
+    header {
+      background-color: #1f1f1f;
+      padding: 20px;
+      font-size: 1.5em;
+      color: #00ff88;
+      font-weight: bold;
+    }
+    .categories {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+    .category {
+      background-color: #1e1e1e;
+      border: 2px solid #00ff88;
+      border-radius: 10px;
+      padding: 30px;
+      font-size: 1.2em;
+      text-decoration: none;
+      color: #e0e0e0;
+      transition: 0.3s;
+    }
+    .category:hover {
+      background-color: #00ff88;
+      color: #121212;
+      transform: scale(1.05);
+    }
+    footer {
+      background-color: #1f1f1f;
+      padding: 15px;
+      font-size: 0.9em;
+      color: #888;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    🎮 LiveShop – LiveOS App Store
+  </header>
+
+  <div class="categories">
+    <a href="apps.html" class="category">📦 Apps</a>
+    <a href="popular.html" class="category">⭐ Popular</a>
+    <a href="justreleased.html" class="category">🚀 Just Released</a>
+    <a href="recommended.html" class="category">🎯 Recommended</a>
+    <a href="games.html" class="category">🎮 Games</a>
+    <a href="exclusives.html" class="category">🔒 LiveOS Exclusives</a>
+  </div>
+
+  <footer>
+    Powered by Verify Studios© 2025
+  </footer>
+</body>
+</html>
